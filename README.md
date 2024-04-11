@@ -1,7 +1,15 @@
-# telegram-bot-shutdown
+# A simple Telegram bot that can shutdown your computer remotely
 
-A simple telegram bot that can shutdown your computer remotely.
+### Demo Video
+https://vt.tiktok.com/ZSFpqHQJT/
 
-Video: https://vt.tiktok.com/ZSFpqHQJT/
+### How to use
+1. Clone the repository (or download the zip file)
+2. Install the required packages using `npm install`
+3. Create a new bot using BotFather on Telegram
+4. Copy the token and paste it in the `index.js` file
+5. Run the bot using `node index.js`
+6. Send `/tatmay` to the bot to shutdown your computer
 
-Follow me on TikTok: https://www.tiktok.com/@juno_okyo
+### Follow me on TikTok
+https://www.tiktok.com/@juno_okyo
