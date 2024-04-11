@@ -5,8 +5,8 @@ const BOT_TOKEN = 'EDIT_ME'
 
 const bot = new Telegraf(BOT_TOKEN)
 bot.start((ctx) => ctx.reply('Welcome'))
-    const time = 60
 bot.command('tatmay', (ctx) => {
+    const time = 60
 
     // shutdown in [time] seconds
     const cmd = `shutdown -s -f -t ${time}`
